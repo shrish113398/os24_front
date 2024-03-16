@@ -5,7 +5,7 @@ const home = () => {
   return (
     <div className='card-array'>
       {
-        [...Array(14)].map((e, i) => <Card key={i} />)
+        [...Array(100)].map((e, i) => <Card key={i} />)
       }
     </div>
   )
